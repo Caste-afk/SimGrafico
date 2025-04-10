@@ -11,7 +11,7 @@ namespace SimGrafico
     {
         public int numero { get; set; }
         public double credito { get; set; }
-        public List<Ctelefonata> registrochiamate { get; set; }
+        public List<Ctelefonata> registrochiamate { get; private set; }
         public CSim(int numero, double credito)
         {
             this.numero = numero;

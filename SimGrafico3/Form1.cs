@@ -9,6 +9,17 @@ namespace SimGrafico
 
         private void btn_CreaSim_Click(object sender, EventArgs e)
         {
+            int numero =0;
+            double credito=0;
+            using (AggiungiSim agg = new AggiungiSim())
+            {
+                if (agg.ShowDialog() == DialogResult.OK)
+                {
+                    numero = agg.numero;
+                    credito = agg.credito;
+                    CSim sim = new CSim(numero, credito);
+                }
+            }
         }
     }
 }

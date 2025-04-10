@@ -32,6 +32,8 @@
             tbx_credito = new TextBox();
             lbl_numero = new Label();
             lbl_credito = new Label();
+            btn_aggiungi = new Button();
+            btn_annulla = new Button();
             SuspendLayout();
             // 
             // tbx_numero
@@ -40,6 +42,7 @@
             tbx_numero.Name = "tbx_numero";
             tbx_numero.Size = new Size(159, 23);
             tbx_numero.TabIndex = 0;
+            tbx_numero.KeyPress += tbx_numero_KeyPressed;
             // 
             // tbx_credito
             // 
@@ -47,6 +50,7 @@
             tbx_credito.Name = "tbx_credito";
             tbx_credito.Size = new Size(159, 23);
             tbx_credito.TabIndex = 1;
+            tbx_credito.KeyPress += tbx_credito_KeyPressed;
             // 
             // lbl_numero
             // 
@@ -64,11 +68,33 @@
             lbl_credito.TabIndex = 3;
             lbl_credito.Text = "credito";
             // 
+            // btn_aggiungi
+            // 
+            btn_aggiungi.Location = new Point(29, 161);
+            btn_aggiungi.Name = "btn_aggiungi";
+            btn_aggiungi.Size = new Size(118, 23);
+            btn_aggiungi.TabIndex = 4;
+            btn_aggiungi.Text = "Aggiungi";
+            btn_aggiungi.UseVisualStyleBackColor = true;
+            btn_aggiungi.Click += btn_aggiungi_Click;
+            // 
+            // btn_annulla
+            // 
+            btn_annulla.Location = new Point(153, 161);
+            btn_annulla.Name = "btn_annulla";
+            btn_annulla.Size = new Size(118, 23);
+            btn_annulla.TabIndex = 5;
+            btn_annulla.Text = "Annulla";
+            btn_annulla.UseVisualStyleBackColor = true;
+            btn_annulla.Click += btn_annulla_Click;
+            // 
             // AggiungiSim
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(301, 255);
+            ClientSize = new Size(301, 196);
+            Controls.Add(btn_annulla);
+            Controls.Add(btn_aggiungi);
             Controls.Add(lbl_credito);
             Controls.Add(lbl_numero);
             Controls.Add(tbx_credito);
@@ -85,5 +111,7 @@
         private TextBox tbx_credito;
         private Label lbl_numero;
         private Label lbl_credito;
+        private Button btn_aggiungi;
+        private Button btn_annulla;
     }
 }
