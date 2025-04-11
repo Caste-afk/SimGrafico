@@ -55,12 +55,20 @@ namespace SimGrafico
             string tot =
                 $"numero: {numero}\n" +
                 $"credito: {credito}\n" +
-                $"registro chiamate: \n";
+                $"registro chiamate: \n" +
+                ChiamateTot();
+            return tot;
+        }
+
+        public string ChiamateTot()
+        {
+            string testo = "";
+
             for (int i = 0; i < registrochiamate.Count; i++)
             {
-                tot += $"{registrochiamate[i].numero}   {registrochiamate[i].durata}\n";
+                testo += $"{registrochiamate[i].numero}   {registrochiamate[i].durata}\n";
             }
-            return tot;
+            return testo;
         }
     }
 }

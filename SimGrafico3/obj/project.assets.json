@@ -8,23 +8,23 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\erosc\\.nuget\\packages\\": {},
+    "C:\\Users\\Eros\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erosc\\Desktop\\scuola\\informatica\\C#\\SimGrafico\\SimGrafico3\\SimGrafico.csproj",
+      "projectUniqueName": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\SimGrafico.csproj",
       "projectName": "SimGrafico",
-      "projectPath": "C:\\Users\\erosc\\Desktop\\scuola\\informatica\\C#\\SimGrafico\\SimGrafico3\\SimGrafico.csproj",
-      "packagesPath": "C:\\Users\\erosc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erosc\\Desktop\\scuola\\informatica\\C#\\SimGrafico\\SimGrafico3\\obj\\",
+      "projectPath": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\SimGrafico.csproj",
+      "packagesPath": "C:\\Users\\Eros\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\erosc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eros\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -51,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net7.0-windows7.0": {
@@ -93,7 +93,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

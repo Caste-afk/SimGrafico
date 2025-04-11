@@ -40,6 +40,23 @@ namespace SimGrafico
 
         private void btn_agg_Click(object sender, EventArgs e)
         {
+            using (AggiungiTelefonata agg = new AggiungiTelefonata())
+            {
+                if (agg.ShowDialog() == DialogResult.OK)
+                {
+                    sim.AggiungiChiamata(agg.numero, agg.durata);
+                }
+            }
+        }
+
+        private void btn_durata_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_chiamate_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

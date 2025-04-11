@@ -4,6 +4,12 @@
     <Compile Update="AggiungiSim.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="AggiungiTelefonata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChiamateTotali.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -34,6 +34,7 @@
             btn_info = new Button();
             lbl_numero = new Label();
             lbl_credito = new Label();
+            btn_chiamate = new Button();
             SuspendLayout();
             // 
             // btn_ricarica
@@ -48,16 +49,17 @@
             // 
             // btn_durata
             // 
-            btn_durata.Location = new Point(317, 302);
+            btn_durata.Location = new Point(217, 302);
             btn_durata.Name = "btn_durata";
             btn_durata.Size = new Size(160, 35);
             btn_durata.TabIndex = 5;
             btn_durata.Text = "Durata Telefonata";
             btn_durata.UseVisualStyleBackColor = true;
+            btn_durata.Click += btn_durata_Click;
             // 
             // btn_agg
             // 
-            btn_agg.Location = new Point(117, 302);
+            btn_agg.Location = new Point(51, 302);
             btn_agg.Name = "btn_agg";
             btn_agg.Size = new Size(160, 35);
             btn_agg.TabIndex = 4;
@@ -67,7 +69,7 @@
             // 
             // btn_info
             // 
-            btn_info.Location = new Point(514, 302);
+            btn_info.Location = new Point(550, 302);
             btn_info.Name = "btn_info";
             btn_info.Size = new Size(160, 35);
             btn_info.TabIndex = 6;
@@ -92,11 +94,22 @@
             lbl_credito.TabIndex = 8;
             lbl_credito.Text = "Credito della sim: ";
             // 
+            // btn_chiamate
+            // 
+            btn_chiamate.Location = new Point(384, 302);
+            btn_chiamate.Name = "btn_chiamate";
+            btn_chiamate.Size = new Size(160, 35);
+            btn_chiamate.TabIndex = 9;
+            btn_chiamate.Text = "Chiamate totali";
+            btn_chiamate.UseVisualStyleBackColor = true;
+            btn_chiamate.Click += btn_chiamate_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(750, 423);
+            Controls.Add(btn_chiamate);
             Controls.Add(lbl_credito);
             Controls.Add(lbl_numero);
             Controls.Add(btn_info);
@@ -115,5 +128,6 @@
         private Button btn_info;
         private Label lbl_numero;
         private Label lbl_credito;
+        private Button btn_chiamate;
     }
 }
