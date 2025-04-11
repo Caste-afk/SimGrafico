@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SimGrafico
 {
-    class CSim
+   public class CSim
     {
         public int numero { get; set; }
         public double credito { get; set; }

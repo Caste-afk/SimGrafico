@@ -28,22 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btn_CreaSim = new Button();
             btn_ricarica = new Button();
             btn_durata = new Button();
             btn_agg = new Button();
             btn_info = new Button();
+            lbl_numero = new Label();
+            lbl_credito = new Label();
             SuspendLayout();
-            // 
-            // btn_CreaSim
-            // 
-            btn_CreaSim.Location = new Point(366, 171);
-            btn_CreaSim.Name = "btn_CreaSim";
-            btn_CreaSim.Size = new Size(160, 35);
-            btn_CreaSim.TabIndex = 2;
-            btn_CreaSim.Text = "Crea Sim";
-            btn_CreaSim.UseVisualStyleBackColor = true;
-            btn_CreaSim.Click += btn_CreaSim_Click;
             // 
             // btn_ricarica
             // 
@@ -53,6 +44,7 @@
             btn_ricarica.TabIndex = 3;
             btn_ricarica.Text = "Ricarica Sim";
             btn_ricarica.UseVisualStyleBackColor = true;
+            btn_ricarica.Click += btn_ricarica_Click;
             // 
             // btn_durata
             // 
@@ -71,6 +63,7 @@
             btn_agg.TabIndex = 4;
             btn_agg.Text = "Aggiungi Telefonata";
             btn_agg.UseVisualStyleBackColor = true;
+            btn_agg.Click += btn_agg_Click;
             // 
             // btn_info
             // 
@@ -81,27 +74,46 @@
             btn_info.Text = "Info";
             btn_info.UseVisualStyleBackColor = true;
             // 
+            // lbl_numero
+            // 
+            lbl_numero.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lbl_numero.Location = new Point(51, 121);
+            lbl_numero.Name = "lbl_numero";
+            lbl_numero.Size = new Size(226, 23);
+            lbl_numero.TabIndex = 7;
+            lbl_numero.Text = "Numero sim:  ";
+            // 
+            // lbl_credito
+            // 
+            lbl_credito.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lbl_credito.Location = new Point(51, 176);
+            lbl_credito.Name = "lbl_credito";
+            lbl_credito.Size = new Size(226, 23);
+            lbl_credito.TabIndex = 8;
+            lbl_credito.Text = "Credito della sim: ";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(750, 423);
+            Controls.Add(lbl_credito);
+            Controls.Add(lbl_numero);
             Controls.Add(btn_info);
             Controls.Add(btn_durata);
             Controls.Add(btn_agg);
             Controls.Add(btn_ricarica);
-            Controls.Add(btn_CreaSim);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Button btn_CreaSim;
         private Button btn_ricarica;
         private Button btn_durata;
         private Button btn_agg;
         private Button btn_info;
+        private Label lbl_numero;
+        private Label lbl_credito;
     }
 }

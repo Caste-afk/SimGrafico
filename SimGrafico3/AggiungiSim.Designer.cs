@@ -101,6 +101,7 @@
             Controls.Add(tbx_numero);
             Name = "AggiungiSim";
             Text = "AggiungiSim";
+            Load += AggiungiSim_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -53,5 +53,9 @@ namespace SimGrafico
             }
         }
 
+        private void AggiungiSim_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

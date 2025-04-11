@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimGrafico
 {
-    class Ctelefonata
+    public class Ctelefonata
     {
         public int numero { get; set; }
         public TimeSpan durata { get; set; }
