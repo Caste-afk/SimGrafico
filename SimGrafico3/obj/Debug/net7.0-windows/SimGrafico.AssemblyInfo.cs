@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimGrafico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b17fe877489824c3dfb49d2fcbf76c002ff4410")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49d8b0ef21945299f85e958120f8ea8aa8b208f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimGrafico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimGrafico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -35,7 +35,7 @@ namespace SimGrafico
                     sim.credito += ricarica.credito;
                 }
             }
-            lbl_credito.Text = $"Credito della sim: {sim.credito.ToString()}";
+            lbl_credito.Text = $"Credito della sim: {Math.Round(sim.credito, 2):0.00}";
         }
 
         private void btn_agg_Click(object sender, EventArgs e)
@@ -47,16 +47,30 @@ namespace SimGrafico
                     sim.AggiungiChiamata(agg.numero, agg.durata);
                 }
             }
+            lbl_credito.Text = $"Credito della sim: {sim.credito}";
         }
 
         private void btn_durata_Click(object sender, EventArgs e)
         {
-
+            using (Durata form = new Durata(sim.registrochiamate))
+            {
+                if (form.ShowDialog() == DialogResult.OK)
+                { }
+            }
         }
 
         private void btn_chiamate_Click(object sender, EventArgs e)
         {
+            using (ChiamateTotali form = new ChiamateTotali(sim.registrochiamate))
+            {
+                if (form.ShowDialog() == DialogResult.OK)
+                { }
+            }
+        }
 
+        private void btn_info_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(sim.Info());
         }
     }
 }

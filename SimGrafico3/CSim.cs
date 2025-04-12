@@ -12,6 +12,7 @@ namespace SimGrafico
         public int numero { get; set; }
         public double credito { get; set; }
         public List<Ctelefonata> registrochiamate { get; private set; }
+        double ptelefonata = 0.004; 
         public CSim(int numero, double credito)
         {
             this.numero = numero;
@@ -22,6 +23,7 @@ namespace SimGrafico
         public void AggiungiChiamata(int numero, TimeSpan durata)
         {
             registrochiamate.Add(new Ctelefonata(numero, durata));
+            credito -= ptelefonata * durata.Minutes + ptelefonata * (durata.Hours * 60); 
         }
 
         public TimeSpan MinutiTotali()

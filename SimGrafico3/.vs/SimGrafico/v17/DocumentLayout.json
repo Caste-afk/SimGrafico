@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|c:\\users\\eros\\desktop\\programmazione\\progetti_c#\\simgrafico\\simgrafico3\\aggiungitelefonata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|solutionrelative:aggiungitelefonata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|c:\\users\\eros\\desktop\\programmazione\\progetti_c#\\simgrafico\\simgrafico3\\aggiungitelefonata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|solutionrelative:aggiungitelefonata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|c:\\users\\eros\\desktop\\programmazione\\progetti_c#\\simgrafico\\simgrafico3\\chiamatetotali.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|solutionrelative:chiamatetotali.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|c:\\users\\eros\\desktop\\programmazione\\progetti_c#\\simgrafico\\simgrafico3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|c:\\users\\eros\\desktop\\programmazione\\progetti_c#\\simgrafico\\simgrafico3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|c:\\users\\eros\\desktop\\programmazione\\progetti_c#\\simgrafico\\simgrafico3\\aggiungitelefonata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|solutionrelative:aggiungitelefonata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\aggiungisim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|solutionrelative:aggiungisim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F07EBE7-66CA-4221-94A9-51C832E2E28F}|SimGrafico.csproj|c:\\users\\eros\\desktop\\programmazione\\progetti_c#\\simgrafico\\simgrafico3\\csim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,94 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChiamateTotali.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\ChiamateTotali.cs",
-              "RelativeDocumentMoniker": "ChiamateTotali.cs",
-              "ToolTip": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\ChiamateTotali.cs [Progettazione]",
-              "RelativeToolTip": "ChiamateTotali.cs [Progettazione]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T18:13:15.024Z",
-              "EditorCaption": " [Progettazione]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "CSim.cs",
               "DocumentMoniker": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\CSim.cs",
               "RelativeDocumentMoniker": "CSim.cs",
               "ToolTip": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\CSim.cs",
               "RelativeToolTip": "CSim.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBkAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T18:06:10.457Z",
+              "WhenOpened": "2025-04-12T17:06:23.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AggiungiTelefonata.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\AggiungiTelefonata.Designer.cs",
-              "RelativeDocumentMoniker": "AggiungiTelefonata.Designer.cs",
-              "ToolTip": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\AggiungiTelefonata.Designer.cs",
-              "RelativeToolTip": "AggiungiTelefonata.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:48:42.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AggiungiTelefonata.cs",
-              "DocumentMoniker": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\AggiungiTelefonata.cs",
-              "RelativeDocumentMoniker": "AggiungiTelefonata.cs",
-              "ToolTip": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\AggiungiTelefonata.cs",
-              "RelativeToolTip": "AggiungiTelefonata.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAApwCcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:38:27.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AggiungiTelefonata.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\AggiungiTelefonata.cs",
-              "RelativeDocumentMoniker": "AggiungiTelefonata.cs",
-              "ToolTip": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\AggiungiTelefonata.cs [Progettazione]",
-              "RelativeToolTip": "AggiungiTelefonata.cs [Progettazione]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:31:50.793Z",
-              "EditorCaption": " [Progettazione]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AggiungiSim.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\AggiungiSim.cs",
-              "RelativeDocumentMoniker": "AggiungiSim.cs",
-              "ToolTip": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\AggiungiSim.cs [Progettazione]",
-              "RelativeToolTip": "AggiungiSim.cs [Progettazione]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:28:24.967Z",
-              "EditorCaption": " [Progettazione]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAApwDoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA9wCUAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T07:14:24.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\Eros\\Desktop\\PROGRAMMAZIONE\\progetti_C#\\SimGrafico\\SimGrafico3\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

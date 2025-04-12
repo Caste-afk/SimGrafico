@@ -55,3 +55,5 @@ C:\Users\Eros\Desktop\PROGRAMMAZIONE\progetti_C#\SimGrafico\SimGrafico3\obj\Debu
 C:\Users\Eros\Desktop\PROGRAMMAZIONE\progetti_C#\SimGrafico\SimGrafico3\obj\Debug\net7.0-windows\SimGrafico.genruntimeconfig.cache
 C:\Users\Eros\Desktop\PROGRAMMAZIONE\progetti_C#\SimGrafico\SimGrafico3\obj\Debug\net7.0-windows\ref\SimGrafico.dll
 C:\Users\Eros\Desktop\PROGRAMMAZIONE\progetti_C#\SimGrafico\SimGrafico3\obj\Debug\net7.0-windows\SimGrafico.AggiungiTelefonata.resources
+C:\Users\Eros\Desktop\PROGRAMMAZIONE\progetti_C#\SimGrafico\SimGrafico3\obj\Debug\net7.0-windows\SimGrafico.ChiamateTotali.resources
+C:\Users\Eros\Desktop\PROGRAMMAZIONE\progetti_C#\SimGrafico\SimGrafico3\obj\Debug\net7.0-windows\SimGrafico.Durata.resources
